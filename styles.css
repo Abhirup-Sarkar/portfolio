@@ -5,6 +5,16 @@
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: #3772FF;
+    /*#6C63FF8*/
+    --caribbean-green: #03CEA4;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
     display: flex;
     justify-content: space-between;
     margin:2rem;
