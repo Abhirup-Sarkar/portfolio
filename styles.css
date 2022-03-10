@@ -1,6 +1,59 @@
+
 *{
     padding: 0rem;
     margin: 0rem;
 
 }
-/*#6C63FF8*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    display: flex;
+    justify-content: space-between;
+    margin:2rem;
+    
+    height: 10vh;  
+    border-top: 1px solid var(--primary-color); 
+    border-bottom: 1px solid var(--primary-color); 
+    
+    
+}
+.nav__brand{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: center;    
+    width: 30%;*/
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 3rem;
+    
+}
+.nav__brand-text{
+    color:var(--primary-color);
+}
+    
+.nav__pills{
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+.nav__pills-links .nav__pills{
+    display: flex;
+    width:10%;
+    
+    
+    list-style: none;
+    margin-right:2rem;
+    
+}
+.nav__pills-links-text{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:var(--primary-color);
+    
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
