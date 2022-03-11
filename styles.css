@@ -14,56 +14,57 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* @nav */
 .navbar{
     display: flex;
     justify-content: space-between;
     margin:2rem;
-    
+    align-items: center;
     height: 10vh;  
     border-top: 1px solid var(--primary-color); 
-    border-bottom: 1px solid var(--primary-color); 
-    
-    
+    border-bottom: 1px solid var(--primary-color);    
 }
-.nav__brand{
-    display: flex;
-    /* justify-content: flex-start;
-    align-items: center;    
-    width: 30%;*/
-    font-size: 2rem;
-    font-weight: 800;
-    margin-left: 3rem;
-    
+.navbar__brand{
+    padding-left: 1rem;   
 }
 .nav__brand-text{
     color:var(--primary-color);
-}
-    
+    font-size: 1.5rem;
+}    
 .nav__pills{
     display: flex;
     gap: 2rem;
-    
-    
+    padding-right: 1rem;
 }
-.nav__pills-links .nav__pills{
-    display: flex;
-    width:10%;
-    
-    
-    list-style: none;
-    margin-right:2rem;
-    
-}
-.nav__pills-links-text{
-    font-size: 1.3rem;
-    font-weight: 400;
+
+.nav__pills-items{
+    font-size: 1.2rem;
+    font-weight: 500;
     color:var(--primary-color);
-    
-}
+}  
 a{
     text-decoration: none;
     
 }
 li{
     list-style: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+}
+.header__image{
+    display: flex;
+    width:60%;
+    height:60vh;
+    margin: auto;
+    margin-top:2rem;
+    
+}
+.header__text{
+   display: flex;
+   justify-content: center;
+   margin: 3rem; 
+   
 }
